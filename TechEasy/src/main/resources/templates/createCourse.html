@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+
+    <title>Create Course</title>
+  </head>
+<style>
+ h1 {
+  text-align: center;
+  text-transform: uppercase;
+  background-color: black;
+  color: grey;
+  box-shadow: 10px 10px 20px black;
+}
+p {
+  text-indent: 50px;
+  text-align: center;
+  letter-spacing: 3px;
+}
+input{
+	filter: drop-shadow(10px 10px 10px black);
+}
+</style>
+<body>
+<article class="card-body mx-auto" style="max-width: 400px;">
+
+<h1>TechEasy</h1>
+<form action="/addCourse" method="post">
+<br>
+</div>
+	  <div class="form-group mx-sm-3 mb-2">
+	    <label for="courseId" class="sr-only">Course Id</label>
+	    <input type="text" class="form-control" name="courseId" placeholder="Course Id">
+	  </div>
+	  <br>
+	  <div class="form-group mx-sm-3 mb-2">
+	    <label for="courseName" class="sr-only">Course Name</label>
+	    <input type="text" class="form-control" name="courseName" placeholder="Course Name">
+	  </div>
+	  <br>
+	  <div class="form-group mx-sm-3 mb-2">
+	    <label for="coursePrice" class="sr-only">Course Price</label>
+	    <input type="number" class="form-control" name="coursePrice" placeholder="Course Price">
+	  </div>
+	  <br>
+			<div class="text-center">
+			  <button type="submit" class="btn btn-primary">Create Course</button>
+			</div>
+
+
+</article>
+</body>
+</html>
